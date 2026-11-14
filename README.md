@@ -18,14 +18,14 @@ https://lnkd.in/gzW4JkW9
 - MIT 6.S191 (2025): Intro to Deep Learning
 https://lnkd.in/gNGV2kbB
 
--CS25: Intro to Transformers with Karpathy
+- CS25: Intro to Transformers with Karpathy
 https://lnkd.in/ghmYwDQB
 
--Stanford CS229 Guest Lecture: Building LLMs
+- Stanford CS229 Guest Lecture: Building LLMs
 https://lnkd.in/gNsyZbX7
 
 Behind the curtain of Stanford’s 2025 LLM stack.
--Deep Dive into LLMs like ChatGPT
+- Deep Dive into LLMs like ChatGPT
 https://lnkd.in/gwkSpfxQ
 
 -Let’s Build GPT from Scratch
