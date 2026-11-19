@@ -32,14 +32,57 @@ hint: preference for all repositories. You can also pass --rebase, --no-rebase,
 hint: or --ff-only on the command line to override the configured default per
 hint: invocation.
 fatal: Need to specify how to reconcile divergent branches.
-(base) namrata@Namratas-MacBook-Pro-2 andrej-karpathy-Neural Networks-Zero to Hero % git status
-On branch main
-Your branch and 'origin/main' have diverged,
-and have 1 and 2 different commits each, respectively.
-  (use "git pull" to merge the remote branch into yours)
-Changes not staged for commit:
-  (use "git add \<file>..." to update what will be committed)
-  (use "git restore \<file>..." to discard changes in working directory)
-&#x9;modified:   ../.DS_Store
-no changes added to commit (use "git add" and/or "git commit -a")
 ```
+#### **Run the following commands (GPT suggestion) -**
+
+```bash
+# Temporarily save the uncommitted change
+git stash push -m "Save local changes before merging"
+
+# Bring in GitHub's commits and merge with your local commit
+git pull --no-rebase origin main
+
+# Push the combined history
+git push origin main
+
+# Restore your uncommitted change
+git stash pop
+```
+
+### Explaination of the logic -
+
+1. Temporarily save the uncommitted change
+
+```bash
+git stash push -m "Save local changes before merging"
+```
+
+This stores my uncommitted changes in Git’s local stash and cleans the working directory.
+- `push` creates a stash entry.
+- `-m` gives it a descriptive message.
+- In this case, it saves the modification to `../.DS_Store`.
+- Existing commits stay on the branch.
+**By default, this does not save new, untracked files. Use `git stash push -u` to save untracked files**
+
+2. Download and merge GitHub’s commits
+
+```bash
+git pull --no-rebase origin main
+```
+- `origin` is the name of my GitHub remote.
+- `main` is the remote branch to fetch.
+- `--no-rebase` tells Git to combine the histories using a merge.
+
+3. Push the combined history
+
+```bash
+git push origin main
+```
+This sends my local main branch’s commits (including the merge) to GitHub. Uncommitted and stashed changes are not uploaded.
+
+4. Restore your uncommitted change
+
+```bash
+git stash pop
+```
+This reapplies the most recent stash to our working directory. If successful, Git removes that stash entry. Our .DS_Store modification becomes an uncommitted change again.
