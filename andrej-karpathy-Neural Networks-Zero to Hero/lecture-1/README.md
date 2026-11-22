@@ -1,6 +1,6 @@
 # Lecture 1: Building micrograd
 
-My hand-written notes from Andrej Karpathy's [Neural Networks: Zero to Hero](https://karpathy.ai/zero-to-hero.html) course, lecture 1: "The spelled-out intro to neural networks and backpropagation: building micrograd."
+My hand-written notes from Andrej Karpathy's [Neural Networks: Zero to Hero](https://www.youtube.com/watch?v=VMj-3S1tku0&list=PLAqhIrjkxbuWI23v9cThsA9GvCAUhRvKZ&index=1) course, lecture 1: "The spelled-out intro to neural networks and backpropagation: building micrograd."
 
 I have divided the content into sub-parts:
 
@@ -13,7 +13,12 @@ I have divided the content into sub-parts:
 
 ## Summary
 
-Neural networks are mathematical expressions that take two kinds of input: the data, and the network's parameters (its weights and biases). The forward pass runs the data through this expression to produce predictions. A loss function then measures how far those predictions are from the correct targets: the lower the loss, the better the network is doing. Backpropagation calculates the gradient of the loss with respect to every parameter, which tells us how each parameter affects the loss. Gradient descent then nudges each parameter a small step in the opposite direction of its gradient, which lowers the loss. Repeating this loop many times (forward pass, zero the gradients, backward pass, update) is how the network learns.
+- Neural networks are mathematical expressions that take two kinds of input: the data, and the network’s parameters (its weights and biases).
+- The forward pass runs the data through this expression to produce predictions.
+- A loss function then measures how far those predictions are from the correct targets: the lower the loss, the better the network is doing.
+- Backpropagation calculates the gradient of the loss with respect to every parameter, which tells us how each parameter affects the loss.
+- Gradient descent then nudges each parameter a small step in the opposite direction of its gradient, which lowers the loss.
+- Repeating this loop many times (forward pass, zero the gradients, backward pass, update) is how the network learns.learns.
 
 Diagrams and screenshots used in the notebooks are in the [images](images/) folder.
 
