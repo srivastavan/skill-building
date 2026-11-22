@@ -1,7 +1,7 @@
 List to complete -
 
-- "Zero to Hero" by Karpathy: hands-on coding series to build neural nets and training/inference from scratch.
-https://lnkd.in/gd2JZ5Wt
+- "Zero to Hero" by Karpathy: hands-on coding series to build neural nets and training/inference from scratch. [COMPLETED](andrej-karpathy-Neural Networks-Zero to Hero/lecture1)
+https://www.youtube.com/playlist?list=PLAqhIrjkxbuWI23v9cThsA9GvCAUhRvKZ
 
 - "General Audience" by Karpathy: best intro to LLMs and how he uses them daily.
 https://lnkd.in/gfGNcd_b
