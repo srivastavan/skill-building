@@ -20,4 +20,5 @@ From the page:
 2. Text extraction: Because when we do web-crawling, the output is HTML text, they applied text extraction to extract text.
 3. Language filtering: Beacuse internet websites can have different languages, they used a language classifier (fastText language classifier) to keep only Engligh text with a score>=0.65.
 4. Gopher filtering: They applied quality and repetition filters from MassiveText paper (https://arxiv.org/abs/2112.11446)
-5. 
+5. MinHash Dedup: Dedup means deduplication. They said
+   > Deduplication is one of the most important steps when creating large web datasets for LLM pretraining. Methods to deduplicate datasets attempt to identify and remove redundant/repeated data from the dataset. Removing these duplicates (deduplicating) has been correlated with improvements in model performance[26] and a reduction in memorization of pretraining data[27], which might allow for better generalization. 
