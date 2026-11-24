@@ -42,7 +42,7 @@ So, `hello world.?` is 3 tokens. `hello` is 1 token, `<space>world` is another, 
 
 - Andrej has re-represented the dataset using GPT-4 tokenizer, and it looks like below -
 
-![Data converted to Tokens](images/tokenization_tokens.png){style="border: 2px solid black;"}
+![Data converted to Tokens](images/tokenization_tokens.png)
 
 - As we are using a small sample dataset, we have less tokens in our data. The original FineWeb dataset has 15-trillion tokens and takes 44TB disk space!!!
 - The numbers here are little text chunks, and they are just unique IDs.
