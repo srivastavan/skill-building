@@ -29,7 +29,7 @@ This process of converting raw text into symbols or tokens is called Tokenizatio
 So select "cl100k_base', which is the GPT-4 base model tokenizer.
 
 <kbd>
-![Tiktokenizer Demo](images/tokenization_tiktokenizer.png)
+  <img src="images/tokenization_tiktokenizer.png" alt="Tiktokenizer Demo">
 </kbd>
 
 So, `hello world.?` is 3 tokens. `hello` is 1 token, `<space>world` is another, and `.?` is last.
