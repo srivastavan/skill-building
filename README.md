@@ -1,3 +1,13 @@
+# Neural Network, Deep Learning and LLMs
+
+My current list:
+
+- Deep Dive into LLMs like ChatGPT: https://www.youtube.com/watch?v=7xTGNNLPyMI&t=11224s   (**IN-PROGRESS**)
+- "Zero to Hero" by Karpathy Series:
+    - Lecture 1: 
+The spelled-out intro to neural networks and backpropagation: building micrograd (https://www.youtube.com/playlist?list=PLAqhIrjkxbuWI23v9cThsA9GvCAUhRvKZ) (**COMPLETED**)
+
+
 List to complete -
 
 - "Zero to Hero" by Karpathy: hands-on coding series to build neural nets and training/inference from scratch. [COMPLETED](andrej-karpathy-Neural Networks-Zero to Hero/lecture1)
