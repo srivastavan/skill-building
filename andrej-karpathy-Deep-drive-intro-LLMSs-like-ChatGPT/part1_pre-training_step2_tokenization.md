@@ -2,12 +2,14 @@
 
 There are multiple stage to build an LLM like ChatGPT. The second stage is called Tokenization.
 
-## Step2: Tokenization
+## Step 2: Tokenization
 
 - Andrej shows example of the final text that ends up in the training set for FineWeb (https://huggingface.co/datasets/HuggingFaceFW/fineweb).
 - He took the first 200 webpages of the dataset and concatenated them and saved them in a single file.
 
-![Raw text](images/tokenization_raw_text.png)
+<kbd>
+    <img src="images/tokenization_raw_text.png", alt = "Raw Text">
+</kbd>
 
 - So our goal here is: Take this raw text, and then train a NN so that NN can internalize and model how this text flows and it can learn the pattern in the dataset.
 - Before we feed the text in NN, we have to decide how to represent this text.

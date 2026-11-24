@@ -2,7 +2,7 @@
 
 There are multiple stage to build an LLM like ChatGPT. The first stage is called Pre-training stage, and the first step is download and process the internet
 
-## Step1: Download and process the internet
+## Step 1: Download and process the internet
 
 - Here Andrej gives an example of fineweb (https://huggingface.co/spaces/HuggingFaceFW/blogpost-fineweb-v1).
 
