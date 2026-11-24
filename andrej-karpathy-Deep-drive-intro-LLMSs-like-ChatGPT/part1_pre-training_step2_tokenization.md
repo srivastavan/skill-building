@@ -28,7 +28,7 @@ This process of converting raw text into symbols or tokens is called Tokenizatio
 - One website we can use is Tiktokenizer (https://tiktokenizer.vercel.app/)
 So select "cl100k_base', which is the GPT-4 base model tokenizer.
 
-![Tiktokenizer Demo](images/tokenization_tiktokenizer.png)
+![Tiktokenizer Demo](images/tokenization_tiktokenizer.png){style="border: 2px solid black;"}
 
 So, `hello world.?` is 3 tokens. `hello` is 1 token, `<space>world` is another, and `.?` is last.
 
@@ -38,7 +38,7 @@ So, `hello world.?` is 3 tokens. `hello` is 1 token, `<space>world` is another, 
 
 - Andrej has re-represented the dataset using GPT-4 tokenizer, and it looks like below -
 
-![Data converted to Tokens](images/tokenization_tiktokenizer.png)
+![Data converted to Tokens](images/tokenization_tokens.png){style="border: 2px solid black;"}
 
 - As we are using a small sample dataset, we have less tokens in our data. The original FineWeb dataset has 15-trillion tokens and takes 44TB disk space!!!
 - The numbers here are little text chunks, and they are just unique IDs.
