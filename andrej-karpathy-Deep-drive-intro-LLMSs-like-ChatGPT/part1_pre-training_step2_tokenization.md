@@ -28,7 +28,9 @@ This process of converting raw text into symbols or tokens is called Tokenizatio
 - One website we can use is Tiktokenizer (https://tiktokenizer.vercel.app/)
 So select "cl100k_base', which is the GPT-4 base model tokenizer.
 
-![Tiktokenizer Demo](images/tokenization_tiktokenizer.png){style="border: 2px solid black;"}
+<kbd>
+![Tiktokenizer Demo](images/tokenization_tiktokenizer.png)
+</kbd>
 
 So, `hello world.?` is 3 tokens. `hello` is 1 token, `<space>world` is another, and `.?` is last.
 
